@@ -1,0 +1,136 @@
+.container{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+}
+
+.bg{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #161419; 
+    z-index: 1;
+}
+
+.left{
+    position: absolute;
+    left: 0;
+    width: 400px;
+    height: 100%;
+    background-color: #323232;
+    opacity: 0.7;
+    z-index: 2;
+}
+
+.left_top{
+    float: left;
+    margin-left: 15px;
+    width: calc(100% - 30px);
+    height: 120px;
+}
+
+.left_top_top{
+    float: left;
+    width: 100%;
+    height: 80px;
+}
+
+.left_top_top p{
+    float: left;
+    margin-top: 30px;
+    margin-left: 10px;
+    color: white;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.left_top_top img{
+    float: left;
+    margin-top: 35px;
+    width: 25px;
+    height: 25px;
+}
+
+.left_top_bottom{
+    float: left;
+    width: 100%;
+    height: 30px;
+    background-color: pink;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.switch_btn_static{
+    width: calc(100% / 3);
+    height: 30px;
+    background-color: #161419;
+    color: #B4B4B4;
+    text-align: center;
+    font-size: 17px;
+    line-height: 30px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.switch_btn_selected{
+    width: calc(100% / 3);
+    height: 30px;
+    background-color: #404342;
+    color: white;
+    text-align: center;
+    font-size: 17px;
+    line-height: 30px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.left_bottom{
+    float: left;
+    margin-left: 15px;
+    width: calc(100% - 30px);
+    height: calc(100% - 120px);
+}
+
+.show_box{
+    float: left;
+    width: 100%;
+    height: calc(100% / 3);
+}
+
+.show_box_top{
+    float: left;
+    margin-top: 15px;
+    width: 100%;
+    height: 30px;
+}
+
+.show_box_top p{
+    float: left;
+    margin-top: 0px;
+    margin-left: 10px;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.show_box_top img{
+    float: left;
+    margin-top: 3px;
+    width: 20px;
+    height: 20px;
+
+}
+
+.show_box_bottom{
+    float: left;
+    width: 100%;
+    height: calc(100% - 55px);
+    background-color: white;
+}
+
+
+
+
+
